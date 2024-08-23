@@ -138,7 +138,7 @@ def deshboard():
         Docter.current()
         Docter.place(x=550,y=150)
         day= ttk.Combobox(des, width=30, textvariable= day, state='readonly')
-        day['values']=('Monday','Tuesday','Wednesday','Thursday','Friday','Satuday','Sunday')
+        day['values']=('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday')
         day.current()
         day.place(x=550,y=170)
         month= ttk.Combobox(des, width=30, textvariable=month, state='readonly')
